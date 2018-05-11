@@ -1,25 +1,28 @@
 .parallax {
-    /* The image used */
-    background-image: url("./breakfast.jpg");
-    /* Set a specific height */
-    height: 1500px;
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
+    height: 400px;
+}
+
+#parallax1 {
+    background-image: url("./breakfast.jpg");
     background-size: cover;
+    background-position: 50% 50%;
+    height: 1500px;
 }
 
-.center {
-    margin: auto;
-    width: 50%;
-    border: 3px solid green;
-    padding: 10px;
+.parallax-content {
+    width: 100%;
+    padding: 80px 20px;
+    margin: 0 auto;
+    vertical-align: middle;
+    text-align: center;
+    height: 400px;
 }
 
-header {
-    border: 1px solid red;
+.parallax-content h1 {
+    font-size: 72px;
+    color: #8FC67C;
+    text-shadow: 0 1px 0 #424242, 0 0 5px #424242;
+    font-family: Roboto-Bold, sans-serif;
 }
-.main {
-    margin-top: 200px;
-}
+
