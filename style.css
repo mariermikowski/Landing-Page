@@ -9,3 +9,17 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+header {
+    border: 1px solid red;
+}
+.main {
+    margin-top: 200px;
+}
